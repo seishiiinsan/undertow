@@ -19,7 +19,7 @@ if __name__ == '__main__':
                 sys.exit()
 
         # Logique et Affichage
-        screen.fill(BLACK)  # Nettoie l'écran
+        screen.fill(WATER_COLOR)  # Nettoie l'écran
         game.run()  # Lance la logique du jeu
 
         pygame.display.update()
